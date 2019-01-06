@@ -1,0 +1,18 @@
+
+
+#nextBtn{
+    height: 90px;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 40px;
+}
+
+#nameDisplay{
+    font-size: 30px;
+}
+
+#image{
+    height: 200px;
+    width: 300px;
+}
+
