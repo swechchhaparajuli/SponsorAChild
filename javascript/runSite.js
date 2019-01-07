@@ -1,6 +1,8 @@
 
 var child = 0;
 
+//hello
+
 var listOfKids = [
 {
     "name" : "Amrit",
