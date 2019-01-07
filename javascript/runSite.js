@@ -6,7 +6,7 @@ var child = 0;
 var listOfKids = [
 {
     "name" : "Amrit",
-    "video" : "./kidInfo/Amrit/image.jpg",
+    "video" : "https://www.youtube.com/embed/5K0ymZ_KKq8",
     "image" : "./kidInfo/Amrit/image.jpg",
     "profile" : ""
 },
