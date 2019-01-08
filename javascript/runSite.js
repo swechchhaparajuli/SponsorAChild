@@ -103,7 +103,6 @@ function profileWriter(name){
     });*/
 }
 
-
 var nameDisplay = document.getElementById("nameDisplay");
 var videoDisplay = document.getElementById("videoDisplay");
 var profileDisplay = document.getElementById("profileInfo");
@@ -123,6 +122,20 @@ $(document).on("click", ".kid" , function(){
     insertName();
     insertImage();
     
+});
+
+$(document).on("click", "#home-page", function(){
+    $("#videoDisplay").empty();
+    $("#nameDisplay").empty();
+    $("#image").empty();
+    $("#profileInfo").empty();
+
+    profileDisplay.textContent = "";
+    videoDisplay.src = "";
+    image.src = "./kidInfo/image.jpg";
+    nameDisplay.textContent = "Meet the Students!";
+
+
 });
 
 $(document).on("click", "#nextBtn", function(){
