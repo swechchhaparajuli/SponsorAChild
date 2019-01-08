@@ -1,19 +1,18 @@
 
 var child = 0;
 
-//hello
 
 var listOfKids = [
 {
     "name" : "Amrit",
-    "video" : "https://www.youtube.com/embed/5K0ymZ_KKq8",
+    "video" : "https://www.youtube.com/embed/YoJOWrCe8B4",
     "image" : "./kidInfo/Amrit/image.jpg",
     "profile" : ""
 },
     
 {
     "name" : "Asish",
-    "video" : "",
+    "video" : "https://www.youtube.com/embed/jqEClhF2GZo",
     "image" : "./kidInfo/Asish/image.jpg",
     "profile" : ""
 },
@@ -27,63 +26,63 @@ var listOfKids = [
 
 {
     "name" : "Laxman",
-    "video" : "",
+    "video" : "https://www.youtube.com/embed/iYH1Ji3YZBc",
     "image" : "./kidInfo/Laxman/image.jpg",
     "profile" : ""
 },
 
 {
     "name" : "Manika",
-    "video" : "",
+    "video" : "https://www.youtube.com/embed/XC5JfCI5Hu0",
     "image" : "./kidInfo/Manika/image.jpg",
     "profile" : ""
 },
 
 {
     "name" : "Manisha",
-    "video" : "",
+    "video" : "https://www.youtube.com/embed/wCoWXgv5Yzc",
     "image" : "./kidInfo/Manisha/image.jpg",
     "profile" : ""
 },
 
 {
     "name" : "Nishan",
-    "video" : "",
+    "video" : "https://youtube.com/embed/Wm7cBx6L8oU",
     "image" : "./kidInfo/Nishan/image.jpg",
     "profile" : ""
 },
 
 {
     "name" : "Ranju",
-    "video" : "",
+    "video" : "https://www.youtube.com/embed/5K0ymZ_KKq8",
     "image" : "./kidInfo/Ranju/image.jpg",
     "profile" : ""
 },
 
 {
     "name" : "Santosh",
-    "video" : "",
+    "video" : "https://youtube.com/embed/zuEAOeDWee4",
     "image" : "./kidInfo/Santosh/image.jpg",
     "profile" : ""
 },
 
 {
     "name" : "Sudeep",
-    "video" : "",
+    "video" : "https://youtube.com/embed/I3thiGB_IUc",
     "image" : "./kidInfo/Sudeep/image.jpg",
     "profile" : ""
 },
 
 {
     "name" : "Susmita",
-    "video" : "",
+    "video" : "https://www.youtube.com/embed/LAM67rWkJUU",
     "image" : "./kidInfo/Susmita/image.jpg",
     "profile" : ""
 },
 
 {
     "name" : "Tulsi",
-    "video" : "./kidInfo/Amrit/Tulsi.mov",
+    "video" : "https://www.youtube.com/embed/17JW-eM87bk",
     "image" : "./kidInfo/Tulsi/image.jpg",
     "profile" : ""
 }
@@ -103,10 +102,10 @@ $(document).on("click", ".kid" , function(){
     insertVid();
     insertName();
     insertImage();
+    
 });
 
 $(document).on("click", "#nextBtn", function(){
-
 
     if(child < 11){
         child++;
