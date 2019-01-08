@@ -134,8 +134,6 @@ $(document).on("click", "#home-page", function(){
     videoDisplay.src = "";
     image.src = "./kidInfo/image.jpg";
     nameDisplay.textContent = "Meet the Students!";
-
-
 });
 
 $(document).on("click", "#nextBtn", function(){
