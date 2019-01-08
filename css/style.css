@@ -1,10 +1,16 @@
 
+body{
+    font-family: 'Gloria Hallelujah', cursive;
+    background: url("./kidInfo/background.jpg");
+}
+
 
 #nextBtn{
     height: 90px;
     width: 90%;
     margin-left: 5%;
     font-size: 40px;
+    opacity: 0.3;
 }
 
 #nameDisplay{
@@ -14,5 +20,27 @@
 #image{
     height: 200px;
     width: 300px;
+}
+
+.navbar{
+    height: 90px;
+    opacity: 0.3;
+    background: url("./kidInfo/navbackground.jpg");
+}
+
+.kid{
+    height: 90px;
+    font-size: 20px;
+    border-right : 50px black;
+}
+
+.home{
+    height: 90px;
+    margin-right: 80px;
+}
+
+.jumbotron{
+    background-color: transparent;
+
 }
 
