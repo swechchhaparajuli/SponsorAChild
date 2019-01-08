@@ -1,5 +1,5 @@
 
-var child = 0;
+var child = -1;
 
 
 var listOfKids = [
@@ -98,7 +98,12 @@ var nextButton = document.getElementById("nextBtn");
 $(document).on("click", ".kid" , function(){
     
     child = parseInt($(this).attr("id"));
-    nextButton.textContent = listOfKids[child].name;
+    if (child < 11){
+        nextButton.textContent = listOfKids[child+1].name;
+    } else {
+        nextButton.textContent = listOfKids[0].name;
+    }
+    
     insertVid();
     insertName();
     insertImage();
@@ -109,11 +114,13 @@ $(document).on("click", "#nextBtn", function(){
 
     if(child < 11){
         child++;
+        nextButton.textContent = listOfKids[child+1].name;
+    } else if (child == 11){
+        nextButton.textContent = listOfKids[0].name;
     } else{
+        nextButton.textContent = listOfKids[0].name;
         child = 0;
     }
-
-    nextButton.textContent = listOfKids[child].name;
 
     insertVid();
     insertName();
@@ -123,16 +130,17 @@ $(document).on("click", "#nextBtn", function(){
 
 function insertVid(){
     $("#videoDisplay").empty();
-    videoDisplay.src = listOfKids[child-1].video;
+    videoDisplay.src = listOfKids[child].video;
+    
 }
 
 function insertName(){
     $("#nameDisplay").empty();
-    nameDisplay.textContent = listOfKids[child-1].name;
+    nameDisplay.textContent = listOfKids[child].name;
 }
 
 function insertImage(){
     $("#image").empty();
     $("#profileInfo").empty();
-    image.src = listOfKids[child-1].image;
+    image.src = listOfKids[child].image;
 }
