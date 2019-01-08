@@ -9,7 +9,15 @@ var listOfKids = [
     "name" : "Amrit",
     "video" : "https://www.youtube.com/embed/YoJOWrCe8B4",
     "image" : "./kidInfo/Amrit/image.jpg",
-    "profile" : profileWriter(this.name)
+    "profile" : profileWriter("Name: Amrit Pariyar\n" +
+
+    "Age: 9 years\n" +
+    
+    "Future career: Singer\n" +
+    
+    "Hobby: Play with friends and travel\n" +
+    
+    "Favourite Food: Chicken curry")
 },
     
 {
@@ -93,7 +101,7 @@ var listOfKids = [
 
 function profileWriter(name){
 
-    return ("enter profile info here")
+    return (name);
 
     /*fs.readFile( "kidInfo/"+ name + "/profile.txt", "utf8", function(error, data) {
         if (error) {
