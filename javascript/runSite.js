@@ -177,5 +177,6 @@ function insertImage(){
     $("#image").empty();
     $("#profileInfo").empty();
     image.src = listOfKids[child].image;
-    profileDisplay.textContent = listOfKids[child].profile;
+    profileDisplay.textContent = profileWriter(listOfKids[child].profile);
+    //profileDisplay.src = "./kidInfo/" + listOfKids[child].name + "/" + listOfKids[child].name + "/" + ".txt";
 }
