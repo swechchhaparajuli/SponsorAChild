@@ -164,7 +164,7 @@ var listOfKids = [
     
     "Food: Momo and noodles")
 }
-
+//add
 ];
 
 function profileWriter(name){
