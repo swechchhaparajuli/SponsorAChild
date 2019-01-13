@@ -37,7 +37,7 @@ var listOfKids = [
 
 {
     "name" : "Kushal",
-    "video" : "",
+    "video" : "https://www.youtube.com/embed/jJtwcYc6yXg",
     "image" : "./kidInfo/Kushal/image.jpg",
     "profile" : profileWriter(this.name)
 },
@@ -164,7 +164,6 @@ var listOfKids = [
     
     "Food: Momo and noodles")
 }
-//add
 ];
 
 function profileWriter(name){
