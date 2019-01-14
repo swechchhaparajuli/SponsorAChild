@@ -38,14 +38,14 @@ var listOfKids = [
 {
     "name" : "Kushal",
     "video" : "https://www.youtube.com/embed/jJtwcYc6yXg",
-    "image" : "./kidInfo/Kushal/image.jpg",
+    "image" : "./kidInfo/Kushal/image.png",
     "profile" : profileWriter(this.name)
 },
 
 {
     "name" : "Laxman",
     "video" : "https://www.youtube.com/embed/iYH1Ji3YZBc",
-    "image" : "./kidInfo/Laxman/image.jpg",
+    "image" : "./kidInfo/Laxman/image.png",
     "profile" : profileWriter("Name: Laxman Bika" +
 
     "Age: 10 years " +
@@ -60,7 +60,7 @@ var listOfKids = [
 {
     "name" : "Manika",
     "video" : "https://www.youtube.com/embed/XC5JfCI5Hu0",
-    "image" : "./kidInfo/Manika/image.jpg",
+    "image" : "./kidInfo/Manika/image.png",
     "profile" : profileWriter("Name: Manika Bika " +
 
     "Age: 8 years " + 
@@ -73,7 +73,7 @@ var listOfKids = [
 {
     "name" : "Manisha",
     "video" : "https://www.youtube.com/embed/wCoWXgv5Yzc",
-    "image" : "./kidInfo/Manisha/image.jpg",
+    "image" : "./kidInfo/Manisha/image.png",
     "profile" : profileWriter("Name: Manisha Bika " +
 
     "Age: 9 years " +
@@ -84,7 +84,7 @@ var listOfKids = [
 {
     "name" : "Nishan",
     "video" : "https://youtube.com/embed/Wm7cBx6L8oU",
-    "image" : "./kidInfo/Nishan/image.jpg",
+    "image" : "./kidInfo/Nishan/image.png",
     "profile" : profileWriter("Name: Nishan" +
 
     "Age: 11 years " +
@@ -99,7 +99,7 @@ var listOfKids = [
 {
     "name" : "Ranju",
     "video" : "https://www.youtube.com/embed/5K0ymZ_KKq8",
-    "image" : "./kidInfo/Ranju/image.jpg",
+    "image" : "./kidInfo/Ranju/image.png",
     "profile" : profileWriter("Name: Ranju " +
 
     "Age: 13 years " +
@@ -114,7 +114,7 @@ var listOfKids = [
 {
     "name" : "Santosh",
     "video" : "https://youtube.com/embed/zuEAOeDWee4",
-    "image" : "./kidInfo/Santosh/image.jpg",
+    "image" : "./kidInfo/Santosh/image.png",
     "profile" : profileWriter("Name: Santosh Rawal " +
 
     "Age: 11 years " +
@@ -142,7 +142,7 @@ var listOfKids = [
 {
     "name" : "Susmita",
     "video" : "https://www.youtube.com/embed/LAM67rWkJUU",
-    "image" : "./kidInfo/Susmita/image.jpg",
+    "image" : "./kidInfo/Susmita/image.png",
     "profile" : profileWriter("Name: Susmita " +
 
     "Age: 11 years " +
@@ -157,7 +157,7 @@ var listOfKids = [
 {
     "name" : "Tulsi",
     "video" : "https://www.youtube.com/embed/17JW-eM87bk",
-    "image" : "./kidInfo/Tulsi/image.jpg",
+    "image" : "./kidInfo/Tulsi/image.png",
     "profile" : profileWriter("Name: Tulsi " +
 
     "Age: 6 years " +
