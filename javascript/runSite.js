@@ -8,7 +8,7 @@ var listOfKids = [
 {
     "name" : "Amrit",
     "video" : "https://www.youtube.com/embed/YoJOWrCe8B4",
-    "image" : "./kidInfo/Amrit/image.jpg",
+    "image" : "./kidInfo/Amrit/image.png",
     "profile" : profileWriter("Name: Amrit Pariyar\n" +
 
     "Age: 9 years\n" +
