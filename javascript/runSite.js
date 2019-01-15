@@ -8,13 +8,13 @@ var listOfKids = [
     "name" : "Amrit",
     "video" : "https://www.youtube.com/embed/YoJOWrCe8B4",
     "image" : "./kidInfo/Amrit/image.png",
-    "profile" : profileWriter("Name: Amrit Pariyar\n" +
+    "profile" : profileWriter("Name: Amrit Pariyar ," +
 
-    "Age: 9 years\n" +
+    "Age: 9 years ," +
     
-    "Future career: Singer\n" +
+    "Future career: Singer ," +
     
-    "Hobby: Play with friends and travel\n" +
+    "Hobby: Play with friends and travel ," +
     
     "Favourite Food: Chicken curry")
 },
@@ -23,13 +23,13 @@ var listOfKids = [
     "name" : "Asish",
     "video" : "https://www.youtube.com/embed/jqEClhF2GZo",
     "image" : "./kidInfo/Asish/image.jpg",
-    "profile" : profileWriter("Name: Ashish" +
+    "profile" : profileWriter("Name: Ashish ," +
 
-        "Age: 10 years " + 
+        "Age: 10 years ," + 
         
-        "Future career: Doctor " +
+        "Future career: Doctor ," +
         
-        "Hobby: Play football " +
+        "Hobby: Play football ," +
         
         "Favourite Food: Chicken curry")
 },
@@ -38,13 +38,13 @@ var listOfKids = [
     "name" : "Kushal",
     "video" : "https://www.youtube.com/embed/jJtwcYc6yXg",
     "image" : "./kidInfo/Kushal/image.png",
-    "profile" : profileWriter("Name: Kushal" +
+    "profile" : profileWriter("Name: Kushal ," +
 
-    "Age: 10 years " + 
+    "Age: 10 years ," + 
     
-    "Future career: Pilot " +
+    "Future career: Pilot ," +
     
-    "Hobby: Playing with a remote controlled car " +
+    "Hobby: Playing with a remote controlled car ," +
     
     "Favourite Food: Jerry (a type of Nepali dessert)")
 },
@@ -53,13 +53,13 @@ var listOfKids = [
     "name" : "Laxman",
     "video" : "https://www.youtube.com/embed/iYH1Ji3YZBc",
     "image" : "./kidInfo/Laxman/image.png",
-    "profile" : profileWriter("Name: Laxman Bika" +
+    "profile" : profileWriter("Name: Laxman Bika ," +
 
-    "Age: 10 years " +
+    "Age: 10 years ," +
     
-    "Future career: Teacher " +
+    "Future career: Teacher ," +
     
-    "Hobby: Reading, playing, singing and dancing " +
+    "Hobby: Reading playing singing and dancing " +
     
     "Favourite Food: Cake")
 },
@@ -68,11 +68,11 @@ var listOfKids = [
     "name" : "Manika",
     "video" : "https://www.youtube.com/embed/XC5JfCI5Hu0",
     "image" : "./kidInfo/Manika/image.png",
-    "profile" : profileWriter("Name: Manika Bika " +
+    "profile" : profileWriter("Name: Manika Bika ," +
 
-    "Age: 8 years " + 
+    "Age: 8 years ," + 
     
-    "Future career: Teacher " +
+    "Future career: Teacher ," +
     
     "Favourite Food: Momo")
 },
@@ -81,9 +81,9 @@ var listOfKids = [
     "name" : "Manisha",
     "video" : "https://www.youtube.com/embed/wCoWXgv5Yzc",
     "image" : "./kidInfo/Manisha/image.png",
-    "profile" : profileWriter("Name: Manisha Bika " +
+    "profile" : profileWriter("Name: Manisha Bika ," +
 
-    "Age: 9 years " +
+    "Age: 9 years ," +
     
     "Favourite Food: Momo ")
 },
@@ -92,13 +92,13 @@ var listOfKids = [
     "name" : "Nishan",
     "video" : "https://youtube.com/embed/Wm7cBx6L8oU",
     "image" : "./kidInfo/Nishan/image.png",
-    "profile" : profileWriter("Name: Nishan" +
+    "profile" : profileWriter("Name: Nishan ," +
 
-    "Age: 11 years " +
+    "Age: 11 years ," +
     
-    "Future career: Dancer " +
+    "Future career: Dancer ," +
     
-    "Hobby: Singing " +
+    "Hobby: Singing ," +
     
     "Favourite Food: Chicken curry")
 },
@@ -107,13 +107,13 @@ var listOfKids = [
     "name" : "Ranju",
     "video" : "https://www.youtube.com/embed/5K0ymZ_KKq8",
     "image" : "./kidInfo/Ranju/image.png",
-    "profile" : profileWriter("Name: Ranju " +
+    "profile" : profileWriter("Name: Ranju ," +
 
-    "Age: 13 years " +
+    "Age: 13 years ," +
     
-    "Future career: Scientist " +
+    "Future career: Scientist ," +
     
-    "Hobby: Badminton " +
+    "Hobby: Badminton ," +
     
     "Favourite Food: Chicken curry and Roti")
 },
@@ -122,11 +122,11 @@ var listOfKids = [
     "name" : "Santosh",
     "video" : "https://youtube.com/embed/zuEAOeDWee4",
     "image" : "./kidInfo/Santosh/image.png",
-    "profile" : profileWriter("Name: Santosh Rawal " +
+    "profile" : profileWriter("Name: Santosh Rawal ," +
 
-    "Age: 11 years " +
+    "Age: 11 years ," +
     
-    "Future career: Pilot " +
+    "Future career: Pilot ," +
     
     "Food: Chicken Momo")
 },
@@ -135,13 +135,13 @@ var listOfKids = [
     "name" : "Sudeep",
     "video" : "https://youtube.com/embed/I3thiGB_IUc",
     "image" : "./kidInfo/Sudeep/image.jpg",
-    "profile" : profileWriter("Name: Sudeep Pariyar " +
+    "profile" : profileWriter("Name: Sudeep Pariyar ," +
 
-    "Age: 10 years " +
+    "Age: 10 years ," +
     
-    "Future career: Singer " +
+    "Future career: Singer ," +
     
-    "Hobby: Dance and Drawing " +
+    "Hobby: Dance and Drawing ," +
     
     "Favourite Food: Cake with frosting")
 },
@@ -150,13 +150,13 @@ var listOfKids = [
     "name" : "Susmita",
     "video" : "https://www.youtube.com/embed/LAM67rWkJUU",
     "image" : "./kidInfo/Susmita/image.png",
-    "profile" : profileWriter("Name: Susmita " +
+    "profile" : profileWriter("Name: Susmita ," +
 
-    "Age: 11 years " +
+    "Age: 11 years ," +
     
-    "Future career: Teacher " +
+    "Future career: Teacher ," +
     
-    "Hobby: Dance, reading and writing " +
+    "Hobby: Dance, reading and writing ," +
     
     "Favourite Food: Chow Mein")
 },
@@ -165,15 +165,16 @@ var listOfKids = [
     "name" : "Tulsi",
     "video" : "https://www.youtube.com/embed/17JW-eM87bk",
     "image" : "./kidInfo/Tulsi/image.png",
-    "profile" : profileWriter("Name: Tulsi " +
+    "profile" : profileWriter("Name: Tulsi ," +
 
-    "Age: 6 years " +
+    "Age: 6 years ," +
     
     "Food: Momo and noodles")
 }
 ];
 
 function profileWriter(name){
+
 
     return (name);
 
@@ -230,9 +231,9 @@ $(document).on("click", "#nextBtn", function(){
         child = 0;
     }
 
-    insertVid();
     insertName();
     insertImage();
+    insertVid();
 })
 
 
@@ -245,12 +246,26 @@ function insertVid(){
 function insertName(){
     $("#nameDisplay").empty();
     nameDisplay.textContent = listOfKids[child].name;
+
 }
 
 function insertImage(){
     $("#image").empty();
     $("#profileInfo").empty();
     image.src = listOfKids[child].image;
-    profileDisplay.textContent = profileWriter(listOfKids[child].profile);
+    var name = listOfKids[child].profile;
+    var description = name.split(",");
+    console.log(description);
+
+    for (var i = 0; i < description.length; i++){
+        var breakObj = document.createElement("BR");
+        var profileText = document.createElement("p");
+        profileDisplay.appendChild(breakObj);
+        profileText.innerHTML = description[i];
+        profileDisplay.appendChild(profileText);
+    }
+
+
+   // profileDisplay.appendChild(profileWriter(listOfKids[child].profile));
     //profileDisplay.src = "./kidInfo/" + listOfKids[child].name + "/" + listOfKids[child].name + "/" + ".txt";
 }
