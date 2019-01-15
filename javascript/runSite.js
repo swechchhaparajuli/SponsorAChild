@@ -20,10 +20,10 @@ var listOfKids = [
 },
     
 {
-    "name" : "Asish",
+    "name" : "Aashish",
     "video" : "https://www.youtube.com/embed/jqEClhF2GZo",
     "image" : "./kidInfo/Asish/image.jpg",
-    "profile" : profileWriter("Name: Ashish ," +
+    "profile" : profileWriter("Name: Aashish Nagari," +
 
         "Age: 10 years ," + 
         
@@ -38,7 +38,7 @@ var listOfKids = [
     "name" : "Kushal",
     "video" : "https://www.youtube.com/embed/jJtwcYc6yXg",
     "image" : "./kidInfo/Kushal/image.png",
-    "profile" : profileWriter("Name: Kushal ," +
+    "profile" : profileWriter("Name: Kushal Nepali," +
 
     "Age: 10 years ," + 
     
@@ -53,7 +53,7 @@ var listOfKids = [
     "name" : "Laxman",
     "video" : "https://www.youtube.com/embed/iYH1Ji3YZBc",
     "image" : "./kidInfo/Laxman/image.png",
-    "profile" : profileWriter("Name: Laxman Bika ," +
+    "profile" : profileWriter("Name: Laxman BK ," +
 
     "Age: 10 years ," +
     
@@ -89,10 +89,10 @@ var listOfKids = [
 },
 
 {
-    "name" : "Nishan",
+    "name" : "Nishant",
     "video" : "https://youtube.com/embed/Wm7cBx6L8oU",
     "image" : "./kidInfo/Nishan/image.png",
-    "profile" : profileWriter("Name: Nishan ," +
+    "profile" : profileWriter("Name: Nishant BK ," +
 
     "Age: 11 years ," +
     
@@ -107,7 +107,7 @@ var listOfKids = [
     "name" : "Ranju",
     "video" : "https://www.youtube.com/embed/5K0ymZ_KKq8",
     "image" : "./kidInfo/Ranju/image.png",
-    "profile" : profileWriter("Name: Ranju ," +
+    "profile" : profileWriter("Name: Ranju Sarki," +
 
     "Age: 13 years ," +
     
@@ -150,7 +150,7 @@ var listOfKids = [
     "name" : "Susmita",
     "video" : "https://www.youtube.com/embed/LAM67rWkJUU",
     "image" : "./kidInfo/Susmita/image.png",
-    "profile" : profileWriter("Name: Susmita ," +
+    "profile" : profileWriter("Name: Susmita Nagari," +
 
     "Age: 11 years ," +
     
@@ -165,7 +165,7 @@ var listOfKids = [
     "name" : "Tulsi",
     "video" : "https://www.youtube.com/embed/17JW-eM87bk",
     "image" : "./kidInfo/Tulsi/image.png",
-    "profile" : profileWriter("Name: Tulsi ," +
+    "profile" : profileWriter("Name: Tulsi Bika," +
 
     "Age: 6 years ," +
     
