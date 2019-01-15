@@ -3,7 +3,6 @@
 
 var child = -1;
 
-
 var listOfKids = [
 {
     "name" : "Amrit",
@@ -39,7 +38,15 @@ var listOfKids = [
     "name" : "Kushal",
     "video" : "https://www.youtube.com/embed/jJtwcYc6yXg",
     "image" : "./kidInfo/Kushal/image.png",
-    "profile" : profileWriter(this.name)
+    "profile" : profileWriter("Name: Kushal" +
+
+    "Age: 10 years " + 
+    
+    "Future career: Pilot " +
+    
+    "Hobby: Playing with a remote controlled car " +
+    
+    "Favourite Food: Jerry (a type of Nepali dessert)")
 },
 
 {
