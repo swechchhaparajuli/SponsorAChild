@@ -265,7 +265,4 @@ function insertImage(){
         profileDisplay.appendChild(profileText);
     }
 
-
-   // profileDisplay.appendChild(profileWriter(listOfKids[child].profile));
-    //profileDisplay.src = "./kidInfo/" + listOfKids[child].name + "/" + listOfKids[child].name + "/" + ".txt";
 }
