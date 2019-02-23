@@ -8,6 +8,7 @@ var listOfKids = [
     "name" : "Amrit",
     "video" : "https://www.youtube.com/embed/YoJOWrCe8B4",
     "image" : "./kidInfo/Amrit/image.png",
+    "sponsored": true,
     "profile" : profileWriter("Name: Amrit Pariyar ," +
 
     "Age: 9 years ," +
@@ -18,11 +19,11 @@ var listOfKids = [
     
     "Favourite Food: Chicken curry")
 },
-    
 {
     "name" : "Aashish",
     "video" : "https://www.youtube.com/embed/jqEClhF2GZo",
     "image" : "./kidInfo/Asish/image.jpg",
+    "sponsored": false,
     "profile" : profileWriter("Name: Aashish Nagari," +
 
         "Age: 10 years ," + 
@@ -33,11 +34,11 @@ var listOfKids = [
         
         "Favourite Food: Chicken curry")
 },
-
 {
     "name" : "Kushal",
     "video" : "https://www.youtube.com/embed/jJtwcYc6yXg",
     "image" : "./kidInfo/Kushal/image.png",
+    "sponsored": false,
     "profile" : profileWriter("Name: Kushal Nepali," +
 
     "Age: 10 years ," + 
@@ -48,11 +49,11 @@ var listOfKids = [
     
     "Favourite Food: Jerry (a type of Nepali dessert)")
 },
-
 {
     "name" : "Laxman",
     "video" : "https://www.youtube.com/embed/iYH1Ji3YZBc",
     "image" : "./kidInfo/Laxman/image.png",
+    "sponsored": false,
     "profile" : profileWriter("Name: Laxman BK ," +
 
     "Age: 10 years ," +
@@ -63,11 +64,11 @@ var listOfKids = [
     
     "Favourite Food: Cake")
 },
-
 {
     "name" : "Manika",
     "video" : "https://www.youtube.com/embed/XC5JfCI5Hu0",
     "image" : "./kidInfo/Manika/image.png",
+    "sponsored": false,
     "profile" : profileWriter("Name: Manika Bika ," +
 
     "Age: 8 years ," + 
@@ -76,22 +77,22 @@ var listOfKids = [
     
     "Favourite Food: Momo")
 },
-
 {
     "name" : "Manisha",
     "video" : "https://www.youtube.com/embed/wCoWXgv5Yzc",
     "image" : "./kidInfo/Manisha/image.png",
+    "sponsored": false,
     "profile" : profileWriter("Name: Manisha Bika ," +
 
     "Age: 9 years ," +
     
     "Favourite Food: Momo ")
 },
-
 {
     "name" : "Nishant",
     "video" : "https://youtube.com/embed/Wm7cBx6L8oU",
     "image" : "./kidInfo/Nishan/image.png",
+    "sponsored": false,
     "profile" : profileWriter("Name: Nishant BK ," +
 
     "Age: 11 years ," +
@@ -102,11 +103,11 @@ var listOfKids = [
     
     "Favourite Food: Chicken curry")
 },
-
 {
     "name" : "Ranju",
     "video" : "https://www.youtube.com/embed/5K0ymZ_KKq8",
     "image" : "./kidInfo/Ranju/image.png",
+    "sponsored": true,
     "profile" : profileWriter("Name: Ranju Sarki," +
 
     "Age: 13 years ," +
@@ -117,11 +118,11 @@ var listOfKids = [
     
     "Favourite Food: Chicken curry and Roti")
 },
-
 {
     "name" : "Santosh",
     "video" : "https://youtube.com/embed/zuEAOeDWee4",
     "image" : "./kidInfo/Santosh/image.png",
+    "sponsored": false,
     "profile" : profileWriter("Name: Santosh Rawal ," +
 
     "Age: 11 years ," +
@@ -135,6 +136,7 @@ var listOfKids = [
     "name" : "Sudeep",
     "video" : "https://youtube.com/embed/I3thiGB_IUc",
     "image" : "./kidInfo/Sudeep/image.jpg",
+    "sponsored": true,
     "profile" : profileWriter("Name: Sudeep Pariyar ," +
 
     "Age: 10 years ," +
@@ -150,6 +152,7 @@ var listOfKids = [
     "name" : "Susmita",
     "video" : "https://www.youtube.com/embed/LAM67rWkJUU",
     "image" : "./kidInfo/Susmita/image.png",
+    "sponsored": false,
     "profile" : profileWriter("Name: Susmita Nagari," +
 
     "Age: 11 years ," +
@@ -165,6 +168,7 @@ var listOfKids = [
     "name" : "Tulsi",
     "video" : "https://www.youtube.com/embed/17JW-eM87bk",
     "image" : "./kidInfo/Tulsi/image.png",
+    "sponsored": true,
     "profile" : profileWriter("Name: Tulsi Bika," +
 
     "Age: 6 years ," +
@@ -255,7 +259,6 @@ function insertImage(){
     image.src = listOfKids[child].image;
     var name = listOfKids[child].profile;
     var description = name.split(",");
-    console.log(description);
 
     for (var i = 0; i < description.length; i++){
         var breakObj = document.createElement("BR");
@@ -263,6 +266,13 @@ function insertImage(){
         profileDisplay.appendChild(breakObj);
         profileText.innerHTML = description[i];
         profileDisplay.appendChild(profileText);
+    }
+
+    if (listOfKids[child].sponsored){
+        var sponsorSticker = document.createElement ("img");
+        sponsorSticker.src = "kidInfo/sponsored.png";
+        $(sponsorSticker).attr('style', 'height:100px');
+        profileDisplay.appendChild(sponsorSticker);
     }
 
 }
