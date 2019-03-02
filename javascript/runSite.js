@@ -152,7 +152,7 @@ var listOfKids = [
     "name" : "Susmita",
     "video" : "https://www.youtube.com/embed/LAM67rWkJUU",
     "image" : "./kidInfo/Susmita/image.png",
-    "sponsored": false,
+    "sponsored": true,
     "profile" : profileWriter("Name: Susmita Nagari," +
 
     "Age: 11 years ," +
