@@ -23,7 +23,7 @@ var listOfKids = [
     "name" : "Aashish",
     "video" : "https://www.youtube.com/embed/jqEClhF2GZo",
     "image" : "./kidInfo/Asish/image.jpg",
-    "sponsored": false,
+    "sponsored": true,
     "profile" : profileWriter("Name: Aashish Nagari," +
 
         "Age: 10 years ," + 
@@ -38,7 +38,7 @@ var listOfKids = [
     "name" : "Kushal",
     "video" : "https://www.youtube.com/embed/jJtwcYc6yXg",
     "image" : "./kidInfo/Kushal/image.png",
-    "sponsored": false,
+    "sponsored": true,
     "profile" : profileWriter("Name: Kushal Nepali," +
 
     "Age: 10 years ," + 
@@ -68,7 +68,7 @@ var listOfKids = [
     "name" : "Manika",
     "video" : "https://www.youtube.com/embed/XC5JfCI5Hu0",
     "image" : "./kidInfo/Manika/image.png",
-    "sponsored": false,
+    "sponsored": true,
     "profile" : profileWriter("Name: Manika Bika ," +
 
     "Age: 8 years ," + 
@@ -81,7 +81,7 @@ var listOfKids = [
     "name" : "Manisha",
     "video" : "https://www.youtube.com/embed/wCoWXgv5Yzc",
     "image" : "./kidInfo/Manisha/image.png",
-    "sponsored": false,
+    "sponsored": true,
     "profile" : profileWriter("Name: Manisha Bika ," +
 
     "Age: 9 years ," +
@@ -92,7 +92,7 @@ var listOfKids = [
     "name" : "Nishant",
     "video" : "https://youtube.com/embed/Wm7cBx6L8oU",
     "image" : "./kidInfo/Nishan/image.png",
-    "sponsored": false,
+    "sponsored": true,
     "profile" : profileWriter("Name: Nishant BK ," +
 
     "Age: 11 years ," +
