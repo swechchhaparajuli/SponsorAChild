@@ -23,7 +23,7 @@ var listOfKids = [
     "name" : "Aashish",
     "video" : "https://www.youtube.com/embed/jqEClhF2GZo",
     "image" : "./kidInfo/Asish/image.jpg",
-    "sponsored": true,
+    "sponsored": false,
     "profile" : profileWriter("Name: Aashish Nagari," +
 
         "Age: 10 years ," + 
@@ -38,7 +38,7 @@ var listOfKids = [
     "name" : "Kushal",
     "video" : "https://www.youtube.com/embed/jJtwcYc6yXg",
     "image" : "./kidInfo/Kushal/image.png",
-    "sponsored": true,
+    "sponsored": false,
     "profile" : profileWriter("Name: Kushal Nepali," +
 
     "Age: 10 years ," + 
