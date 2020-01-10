@@ -8,7 +8,7 @@ var listOfKids = [
     "name" : "Amrit",
     "video" : "https://www.youtube.com/embed/YoJOWrCe8B4",
     "image" : "./kidInfo/Amrit/image.png",
-    "sponsored": true,
+    "sponsored": false,
     "profile" : profileWriter("Name: Amrit Pariyar ," +
 
     "Age: 9 years ," +
@@ -53,7 +53,7 @@ var listOfKids = [
     "name" : "Laxman",
     "video" : "https://www.youtube.com/embed/iYH1Ji3YZBc",
     "image" : "./kidInfo/Laxman/image.png",
-    "sponsored": false,
+    "sponsored": true,
     "profile" : profileWriter("Name: Laxman BK ," +
 
     "Age: 10 years ," +
@@ -122,7 +122,7 @@ var listOfKids = [
     "name" : "Santosh",
     "video" : "https://youtube.com/embed/zuEAOeDWee4",
     "image" : "./kidInfo/Santosh/image.png",
-    "sponsored": false,
+    "sponsored": true,
     "profile" : profileWriter("Name: Santosh Rawal ," +
 
     "Age: 11 years ," +
@@ -136,7 +136,7 @@ var listOfKids = [
     "name" : "Sudeep",
     "video" : "https://youtube.com/embed/I3thiGB_IUc",
     "image" : "./kidInfo/Sudeep/image.jpg",
-    "sponsored": true,
+    "sponsored": false,
     "profile" : profileWriter("Name: Sudeep Pariyar ," +
 
     "Age: 10 years ," +
