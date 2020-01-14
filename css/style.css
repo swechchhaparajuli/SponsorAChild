@@ -8,7 +8,7 @@ body{
 
 #nextBtn{
     height: 90px;
-    width: 90%;
+    width: 70%;
     margin-left: 5%;
     font-size: 40px;
     opacity: 0.3;
@@ -21,12 +21,12 @@ body{
 }
 
 #image{
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 320px;
 }
 
 .sidebar{
-    height: 80px;
+    height: 50px;
     /*box-shadow: 0px 10px 0px 10px #373636;*/
     height: auto; /* Full-height: remove this if you want "auto" height */
     width: 120px; /* Set the width of the sidebar */
@@ -36,12 +36,11 @@ body{
     left: 0;
     background-color: #111; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
 }
 
 .kid{
     height: 80px;
-    font-size: 10px;
+    font-size: 15px;
     border-right: -40px black;
     box-shadow: 5px 5px rgb(41, 41, 41);
     padding: 6px 8px 6px 16px;
@@ -50,16 +49,15 @@ body{
 }
 
 #profile{
-    margin-left: 160px; /* Same as the width of the sidebar */
+    margin-left: 180px; /* Same as the width of the sidebar */
     padding: 0px 10px;
-
 }
 
 .home{
     height: 30px;
     background-color: transparent;
     margin-right: 30px;
-    margin-left: 20px;
+    margin-left: 10px;
     border: transparent;
 }
 
