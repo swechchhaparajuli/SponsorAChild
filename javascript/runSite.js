@@ -81,7 +81,7 @@ var listOfKids = [
     "name" : "Manisha",
     "video" : "https://www.youtube.com/embed/wCoWXgv5Yzc",
     "image" : "./kidInfo/Manisha/image.png",
-    "sponsored": true,
+    "sponsored": false,
     "profile" : profileWriter("Name: Manisha Bika ," +
 
     "Age: 9 years ," +
