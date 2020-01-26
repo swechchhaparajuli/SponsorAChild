@@ -23,7 +23,7 @@ var listOfKids = [
     "name" : "Aashish",
     "video" : "https://www.youtube.com/embed/jqEClhF2GZo",
     "image" : "./kidInfo/Asish/image.jpg",
-    "sponsored": false,
+    "sponsored": true,
     "profile" : profileWriter("Name: Aashish Nagari," +
 
         "Age: 10 years ," + 
