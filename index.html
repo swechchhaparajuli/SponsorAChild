@@ -88,7 +88,7 @@
         <div class="row">
           <div class="col-4" v-for="kid in kids">
             <button v-on:mouseover="display_summary(kid.id)" v-on:click="show_kid(kid.id)" id="kidbutton" class="btn btn-light kid" id = "0">{{kid.name}}
-              <span v-if="!d_sum && kid.sponsored" class="spons">Sponsored</span>
+              <p v-if="kid.sponsored" class="spons">Sponsored</p>
               <div v-if="d_sum && kid.id == current_kid">
                 <span class="display_summary">
                   <br>
