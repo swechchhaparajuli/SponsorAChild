@@ -33,9 +33,9 @@
               <button class="btn btn-dark home" id = "home-page" v-on:click="show_intro"> Home  </button>
             </li>
             <li>
-                <button class="btn btn-dark" id = "showkids-page" v-on:click="show_allkids"> Students Menu</button>
+                <button class="btn btn-dark" id = "showkids-page" v-on:click="show_allkids"> Students </button>
             </li>
-            <li class="nav-item dropdown float-right">
+            <li class="nav-item dropdown">
                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -84,14 +84,13 @@
     
 
       <!-- VIEW LIST OF KIDS -->
-      <div v-if="view_kids" class="container">
+      <div v-if="view_kids" class="container topspace">
         <div class="row">
           <div class="col-4" v-for="kid in kids">
             <button v-on:mouseover="display_summary(kid.id)" v-on:click="show_kid(kid.id)" id="kidbutton" class="btn btn-light kid" id = "0">{{kid.name}}
               <p v-if="kid.sponsored" class="spons">Sponsored</p>
               <div v-if="d_sum && kid.id == current_kid">
                 <span class="display_summary">
-                  <br>
                   <br>
                   <p>Age: {{kid.age}}</p>
                   <p>Favourite Food: {{kid.favourite_food}}</p>
@@ -107,7 +106,7 @@
 
       <!-- VIEW INFO OF KID -->
 
-      <div v-if="view_info" class="container">
+      <div v-if="view_info" class="container topspace">
         <div class="row">
           <div class="col-12" v-for="kid in kids" v-if="kid.id == current_kid">
               <div class="embed-responsive embed-responsive-21by9">  

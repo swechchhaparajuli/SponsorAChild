@@ -48,9 +48,6 @@ button{
     padding-top: 60px;
 }
 
-.topspace{
-    padding-top: 90px;
-}
 
 .arrow{
     background-size: cover;
@@ -129,6 +126,8 @@ button{
     padding: 0px 10px;
 }
 
+
+
 .home{
     height: 30px;
     background-color: transparent;
@@ -151,14 +150,6 @@ button{
 }
 
 
-.btn:hover{
-    opacity: 0.6;
-}
-
-.btn:active{
-    opacity: 0.0;
-    border: transparent;
-}
 
 .iframe-container {
   overflow: hidden;
@@ -185,6 +176,12 @@ button{
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+    [class*="col-"] {
+        width: 100%;
+      }
 
+  .fixed-top{height:150px; font-size: 40px;}
+  .topspace{
+    padding-top: 100px;}
 }
