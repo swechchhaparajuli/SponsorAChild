@@ -13,7 +13,7 @@ let init = (app) => {
         kids: [], // See initialization.
         view_intro: true, // intro page
         view_info: false, // info of kid depending on which is clicked
-        view_kids: false, // list of kids
+        view_kids: true, // list of kids
         current_kid: 0,
         d_sum: false,
     };
@@ -145,7 +145,7 @@ let init = (app) => {
                 name : "Manisha",
                 video : "https://www.youtube.com/embed/wCoWXgv5Yzc",
                 image : "./kidInfo/Manisha/image.png",
-                sponsored: false,
+                sponsored: true,
                 age: 9,
                 future_career: "",
                 hobby : "",

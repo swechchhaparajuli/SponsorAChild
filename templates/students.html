@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Students At Budanilikantha</title>
+ 
+  <!-- We need to bring in the bootstrap CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  <link rel="stylesheet" href="../OldVersion/static/kidInfo/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="../static/css/reset.css">
+  <link rel="stylesheet" href="../static/css/style.css">
+  
+
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+
+  </head>
+
+  <title>Swechchha Parajuli</title>
+
+  <body>
+    <div id="vue-target">
+    <nav class="navbar justify-content-between fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="../index.html" class="btn btn-dark home" id = "home-page"> Home  </a>
+            </li>
+            <li>
+                <button class="btn btn-dark" id = "showkids-page" v-on:click="show_allkids"> Students </button>
+            </li>
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" v-on:click="show_kid(kid.id)" v-for="kid in kids" href="#">{{kid.name}} <span v-if="!kid.sponsored" class="reddot"> * </span> </a>
+              </div>
+            </li>
+            <li class="right-align">
+              <a href="../templates/contact.html" class="btn btn-dark" id = "learn_more" v-on:click=""> Become a sponsor </a>
+          </li>
+          </ul>
+        </div>
+    </nav>
+
+      <!-- VIEW LIST OF KIDS -->
+      <div v-if="view_kids" class="container topspace">
+        <div class="row">
+          <div class="col-4" v-for="kid in kids">
+            <button v-on:mouseover="display_summary(kid.id)" v-on:click="show_kid(kid.id)" id="kidbutton" class="btn btn-light kid" id = "0">{{kid.name}}
+              <p v-if="kid.sponsored" class="spons">Sponsored</p>
+              <div v-if="d_sum && kid.id == current_kid">
+                <span class="display_summary">
+                  <br>
+                  <p>Age: {{kid.age}}</p>
+                  <p>Favourite Food: {{kid.favourite_food}}</p>
+                  <p v-if="kid.future_career != ''"> When I grow up, I want to be a {{kid.future_career}}</p>
+                    <p v-if="kid.hobby != ''"> Hobby: {{kid.hobby}} </p>
+                </span>
+              </div>
+            </button>
+            <br>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIEW INFO OF KID -->
+
+      <div v-if="view_info" class="container topspace">
+        <div class="row">
+          <div class="col-12" v-for="kid in kids" v-if="kid.id == current_kid">
+              <div class="embed-responsive embed-responsive-21by9">  
+                <iframe v-if="kid.id == 1" class="embed-responsive-item" src="https://www.youtube.com/embed/YoJOWrCe8B4" id = "videoDisplay" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe> 
+                <iframe v-if="kid.id == 2" class="embed-responsive-item" src="https://www.youtube.com/embed/jqEClhF2GZo" id = "videoDisplay" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <iframe v-if="kid.id == 3" class="embed-responsive-item" src="https://www.youtube.com/embed/jJtwcYc6yXg" id = "videoDisplay" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <iframe v-if="kid.id == 4" class="embed-responsive-item" src="https://www.youtube.com/embed/iYH1Ji3YZBc" id = "videoDisplay" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <iframe v-if="kid.id == 5" class="embed-responsive-item" src="https://www.youtube.com/embed/XC5JfCI5Hu0" id = "videoDisplay" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <iframe v-if="kid.id == 6" class="embed-responsive-item" src="https://www.youtube.com/embed/wCoWXgv5Yzc" id = "videoDisplay" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <iframe v-if="kid.id == 7" class="embed-responsive-item" src="https://youtube.com/embed/Wm7cBx6L8oU" id = "videoDisplay" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <iframe v-if="kid.id == 8" class="embed-responsive-item" src="https://www.youtube.com/embed/5K0ymZ_KKq8" id = "videoDisplay" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <iframe v-if="kid.id == 9" class="embed-responsive-item" src="https://youtube.com/embed/zuEAOeDWee4" id = "videoDisplay" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <iframe v-if="kid.id == 10" class="embed-responsive-item" src="https://youtube.com/embed/I3thiGB_IUc" id = "videoDisplay" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <iframe v-if="kid.id == 11" class="embed-responsive-item" src="https://www.youtube.com/embed/LAM67rWkJUU" id = "videoDisplay" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <iframe v-if="kid.id == 12" class="embed-responsive-item" src="https://www.youtube.com/embed/17JW-eM87bk" id = "videoDisplay" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+              </div>
+              <br>
+              <br>
+              <div class ="border border-dark">
+                 <br>
+                  <p>  My name is {{kid.name}}. I am {{kid.age}} years old 
+                      and my favourite food is {{kid.favourite_food}}!  
+                  </p>
+                  <br>
+                  <p v-if="kid.future_career != ''"> When I grow up, I want to be a {{kid.future_career}}.
+                  <span v-if="kid.hobby != ''"> In my free time, I like to {{kid.hobby}}. </span> </p>
+                  <br>
+              </div>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    </body>
+
+
+      <script src="../static/js/sugar.min.js"></script>
+      <script src="../static/js/axios.min.js"></script>
+      <script src="../static/js/vue.js"></script>
+      <script src="../static/js/utils.js"></script> 
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="../static/js/index.js"></script>
+      
+ </html>

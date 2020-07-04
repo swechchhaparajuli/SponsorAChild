@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Students At Budanilikantha</title>
+ 
+  <!-- We need to bring in the bootstrap CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  <link rel="stylesheet" href="../../OldVersion/static/kidInfo/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="../static/css/reset.css">
+  <link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+
+<title></title>
+
+<body>
+    <div id="vue-target">
+        <nav class="navbar justify-content-between fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    
+                  <li class="nav-item active">
+                    <a href="../index.html" class="btn btn-dark home" id = "home-page" v-on:click="show_intro"> Home </a>
+                  </li>
+
+                  <li>
+                    <a href="../templates/students.html" class="btn btn-dark" id = "showkids-page" v-on:click="show_allkids"> Students </a>
+                </li>
+
+                </ul>
+              </div>
+          </nav>
+        <div>
+            <div class = " container-fluid topspace">
+                <div class = "row">
+                  <div class="col-1"></div>
+                  <div class="col-10">
+                    <box>
+                        <h2>
+                            How does this work ...?
+                        </h2>
+                        <div class = "container smallbox">
+                            <br>
+                            <p>
+                            Sponsoring any of these students, means that you will be connected directly
+                            to the Sathya Sai Siksha Sadhan school, which you can check out at:
+                            <a href="http://ssss.edu.np/" class= "btn buttonspons btn-link">ssss.edu.np </a>
+                            </p>
+                            <br>
+                        <div class = "container smallbox">
+                            <br>
+                            <p>
+                                Our goal is to find sponsors for all of these students so that each of them
+                                are able to receive their education in an environment where the 
+                                contents of their character will be what defines them 
+                                rather than any racial, cultural or economic barriers.  
+                            </p>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                    </box>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+                <div class = "row">
+                    <div class= "col-4"></div>
+                    <div class= "col-4"><img class="card-img-top imgdot" src="../static/kidInfo/image.jpg" alt="Card image cap"></div>
+                    <div class= "col-4"></div>
+                </div>
+              <div class = "row">
+                <div class= "col-4"></div>
+                <div class= "col-4">  
+                  <div class="card dot">
+                      <div class="card-body">
+                        <p class="card-text">If you are interested in sponsoring a student</p> <p>please send us an email at</p>
+                        <a href="mailto:anuchapa@gmail.com" class="btn buttonspons btn-link">anuchapa@gmail.com</a>
+                        <p> with your name and the name of the student that you would like to sponsor 
+                            or any questions you may have. </p>
+                      </div>
+                  </div>
+                  </div>
+                  <div class= "col-4"></div>
+                </div>
+                <div class = "row"></div>
+              </div>
+        </div>
+    </div>
+</body>
+
+
+<script src="../static/js/sugar.min.js"></script>
+<script src="../static/js/axios.min.js"></script>
+<script src="../static/js/vue.js"></script>
+<script src="../static/js/utils.js"></script> 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="../static/js/index.js"></script>
+
+</html>
