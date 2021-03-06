@@ -189,7 +189,7 @@ let init = (app) => {
                 name : "Sudeep",
                 video : "https://youtube.com/embed/I3thiGB_IUc",
                 image : "./kidInfo/Sudeep/image.jpg",
-                sponsored : true,
+                sponsored : false,
                 age : 10,
                 future_career : "Singer",
                 hobby : "dance and draw",
