@@ -192,7 +192,7 @@ let init = (app) => {
                 sponsored : false,
                 age : 10,
                 future_career : "Singer",
-                hobby : "dance and draw",
+                hobby : "dancing and drawing",
                 favourite_food : "Cake with frosting"
             },
             
