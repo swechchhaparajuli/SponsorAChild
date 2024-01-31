@@ -239,6 +239,28 @@ let init = (app) => {
                 future_career: "",
                 hobby: "",
                 favourite_food: "Pizza"
+            },
+            {
+                id: 15,
+                name : "Rohan",
+                video : "",
+                image : "./kidInfo/Rohan/image.png",
+                sponsored : false,
+                age : 6,
+                future_career : "Teacher",
+                hobby : "dance, read and write",
+                favourite_food : "Pizza"
+            },
+            {
+                id: 16,
+                name : "Rajan",
+                video : "",
+                image : "./kidInfo/Rajan/image.png",
+                sponsored : true,  
+                age: 12,
+                future_career: "Teacher",
+                hobby: "play soccer",
+                favourite_food: "Pizza"
             }
             
         ];
