@@ -219,7 +219,7 @@ let init = (app) => {
                 favourite_food: "Momo and noodles"
             },
             {
-                id: 11,
+                id: 13,
                 name : "Ageline",
                 video : "",
                 image : "./kidInfo/Ageline/image.png",
@@ -227,10 +227,10 @@ let init = (app) => {
                 age : 6,
                 future_career : "Teacher",
                 hobby : "dance, read and write",
-                favourite_food : ""
+                favourite_food : "Pizza"
             },
             {
-                id: 12,
+                id: 14,
                 name : "Esmi",
                 video : "",
                 image : "./kidInfo/Esmi/image.png",
@@ -238,7 +238,7 @@ let init = (app) => {
                 age: 12,
                 future_career: "",
                 hobby: "",
-                favourite_food: ""
+                favourite_food: "Pizza"
             }
             
         ];
