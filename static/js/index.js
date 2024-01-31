@@ -253,9 +253,9 @@ let init = (app) => {
             },
             {
                 id: 16,
-                name : "Rajan",
+                name : "Rijan",
                 video : "",
-                image : "./kidInfo/Rajan/image.jpg",
+                image : "./kidInfo/Rijan/image.jpg",
                 sponsored : true,  
                 age: 12,
                 future_career: "Teacher",
