@@ -167,7 +167,7 @@ let init = (app) => {
                 name : "Ranju",
                 video : "https://www.youtube.com/embed/5K0ymZ_KKq8",
                 image : "./kidInfo/Ranju/image.png",
-                sponsored : true,
+                sponsored : false,
                 age : 13,
                 future_career : "Scientist",
                 hobby : "play badminton",
@@ -217,7 +217,30 @@ let init = (app) => {
                 future_career: "",
                 hobby: "",
                 favourite_food: "Momo and noodles"
+            },
+            {
+                id: 11,
+                name : "Ageline",
+                video : "",
+                image : "./kidInfo/Ageline/image.png",
+                sponsored : false,
+                age : 6,
+                future_career : "Teacher",
+                hobby : "dance, read and write",
+                favourite_food : ""
+            },
+            {
+                id: 12,
+                name : "Esmi",
+                video : "",
+                image : "./kidInfo/Esmi/image.png",
+                sponsored : true,  
+                age: 12,
+                future_career: "",
+                hobby: "",
+                favourite_food: ""
             }
+            
         ];
 
         // TODO: Load the posts from the server instead.
